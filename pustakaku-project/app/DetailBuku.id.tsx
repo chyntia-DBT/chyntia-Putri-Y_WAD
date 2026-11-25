@@ -1,0 +1,32 @@
+export const dataBuku = [
+    {
+        id: 1,
+        judul: "Laskar Pelangi",
+        penulis: "Andrea Hirata",
+        kategori: "Novel",
+        tahun: 2005,
+        stok: 3,
+        total: 5,
+        deskripsi: "Kisah sepuluh anak di Belitung yang berjuang agar sekolah mereka tetap bertahan.",
+    },
+    {
+        id: 2,
+        judul: "Bumi Manusia",
+        penulis: "Pramoedya Ananta Toer",
+        kategori: "Novel",
+        tahun: 1980,
+        stok: 0,
+        total: 2,
+        deskripsi: "Kisah Minke, pribumi terpelajar, di masa kolonial Hindia Belanda.",
+    },
+    {
+        id: 3,
+        judul: "Fisika Dasar",
+        penulis: "Halliday",
+        kategori: "Sains",
+        tahun: 2010,
+        stok: 2,
+        total: 2,
+        deskripsi: "Buku pegangan dasar fisika untuk pelajar dan mahasiswa.",
+    },
+];
