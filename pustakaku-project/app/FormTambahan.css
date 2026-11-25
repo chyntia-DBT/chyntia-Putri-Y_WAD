@@ -1,0 +1,78 @@
+.baru-halaman {
+    width: 420px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.baru-kartu {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.baru-kartu h2 {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.baru-kartu label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.baru-kartu input,
+.baru-kartu select,
+.baru-kartu textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.baru-kartu textarea {
+    height: 70px;
+}
+
+.baru-error {
+    color: darkred;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.baru-baris {
+    display: flex;
+}
+
+.baru-baris div {
+    flex: 1;
+    margin-right: 12px;
+}
+
+.baru-baris div:last-child {
+    margin-right: 0;
+}
+
+.baru-tombol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baru-batal {
+    border: 1px solid gray;
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+.baru-simpan {
+    background: black;
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
