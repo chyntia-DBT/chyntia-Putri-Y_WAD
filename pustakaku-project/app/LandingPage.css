@@ -1,0 +1,97 @@
+import from Landing page.tsx
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: #4aa3f0;
+}
+hero {
+  position: relative;
+  min-height: 100vh;
+  background: #4aa3f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  overflow: hidden;
+}
+isi {
+  max-width: 560px;
+  position: relative;
+  z-index: 2;
+}
+
+.isi h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.garis {
+  width: 40px;
+  height: 3px;
+  background: #fff;
+  margin: 18px auto;
+}
+
+.isi p {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 28px;
+}
+
+/* ===== Tombol ===== */
+.tombol {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.tombol:hover {
+  background: #fff;
+  color: #4aa3f0;
+}
+.hiasan {
+  position: absolute;
+  font-size: 3.5rem;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+.h1 { top: 20px;    left: 30px;  transform: rotate(-15deg); }
+.h2 { top: 30px;    left: 38%;   transform: rotate(10deg); }
+.h3 { top: 20px;    right: 30px; transform: rotate(15deg); }
+.h4 { bottom: 20px; left: 30px;  transform: rotate(-10deg); }
+.h5 { bottom: 25px; right: 40px; transform: rotate(12deg); }
+
+/* ===== Catatan peminjaman ===== */
+.catatan {
+  background: #fff;
+  color: #333;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.catatan h2 {
+  color: #4aa3f0;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
