@@ -1,0 +1,80 @@
+.buku-halaman {
+    width: 700px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.buku-atas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buku-atas h2 {
+    font-size: 15px;
+}
+
+.buku-tombol-hitam {
+    background: black;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buku-cari {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buku-cari input {
+    flex: 1;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.buku-tabel {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.buku-tabel th {
+    background: #eeeeee;
+    text-align: left;
+    padding: 8px;
+    font-weight: normal;
+}
+
+.buku-tabel td {
+    padding: 8px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.buku-stok {
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.stok-habis {
+    background: #ffd6d6;
+    color: red;
+}
+
+.buku-tombol-detail {
+    border: 1px solid gray;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+.buku-kosong {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
